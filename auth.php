@@ -106,7 +106,7 @@ class auth_plugin_authplaincas extends DokuWiki_Auth_Plugin {
       $this->cando['logout'] = true;
       $this->cando['logoff'] = true;
 
-      // The default options which need to be set in the settins file.
+      // The default options which need to be set in the settings file.
       $defaults = array(
         // 'server' => 'galaxy.esn.org',
         // 'rootcas' => '/cas',
