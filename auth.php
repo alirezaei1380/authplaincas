@@ -304,9 +304,8 @@ function trustExternal ($user,$pass,$sticky=false)
       } else {
         return false; // Not logged in
       }
-      if (isset($_POST['remember'])) { // Set RememberMe cookie if user set RememberMe checkbox
-        $this->setAuthCookie($remoteUser);
-      }
+      $this->setAuthCookie($remoteUser);
+
     }
 
     $this->_userInfo = $this->getUserData($remoteUser);
